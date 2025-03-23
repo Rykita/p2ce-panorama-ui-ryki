@@ -23,8 +23,7 @@ class VersionInfo {
 
 		if (GameInterfaceAPI.GetSettingBool('developer')) {
 			cp.visible = true;
-		} 
-		else {
+		} else {
 			cp.visible = false;
 		}
 
